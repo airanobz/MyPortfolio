@@ -1,7 +1,7 @@
 /* =========================================================
    AIRA NOBLEZA — PORTFOLIO
    Clean unified stylesheet
-   Based strictly on the uploaded HTML files
+   Purple → Pink Gradient Background
 ========================================================= */
 
 
@@ -22,7 +22,12 @@ html {
 body {
     min-height: 100vh;
     font-family: "Segoe UI", Arial, sans-serif;
-    background: #09090f;
+    background: linear-gradient(
+        135deg,
+        #18002e 0%,
+        #4c1d6f 45%,
+        #9d174d 100%
+    );
     color: #f5f3fa;
     line-height: 1.6;
     overflow-x: hidden;
@@ -83,7 +88,13 @@ select {
     z-index: -5;
     overflow: hidden;
     pointer-events: none;
-    background: var(--bg);
+
+    background: linear-gradient(
+        135deg,
+        #18002e 0%,
+        #4c1d6f 45%,
+        #9d174d 100%
+    );
 }
 
 .grid {
@@ -129,7 +140,7 @@ select {
 .glow-two {
     right: -100px;
     bottom: 5%;
-    background: #c56bff;
+    background: #ff4fa3;
 }
 
 
